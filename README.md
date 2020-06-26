@@ -1,3 +1,8 @@
+[![Release](https://img.shields.io/github/release/goreleaser/goreleaser.svg?style=for-the-badge)](https://github.com/giannimassi/git-checkout-branch/releases/latest)
+![Test](https://github.com/giannimassi/git-checkout-branch/workflows/Test/badge.svg?branch=master)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](/LICENSE.md)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](http://godoc.org/github.com/giannimassi/git-checkout-branch)
+
 # git-checkout-interactive
 
 ## A cli application for interactively checking out branches
