@@ -4,6 +4,8 @@
 
 ## A cli application for interactively checking out branches
 
+[![asciicast](https://asciinema.org/a/6nK7EchQbDNJzD9y0Cb2dIPgv.svg)](https://asciinema.org/a/6nK7EchQbDNJzD9y0Cb2dIPgv)
+
 ## Installation
 
 ```sh
