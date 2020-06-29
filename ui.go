@@ -59,8 +59,6 @@ func (ui *ui) handleKeyEvent(ev keyboard.KeyEvent) (bool, error) {
 	case ev.Key == keyboard.KeyArrowUp:
 		fallthrough
 	case ev.Key == keyboard.KeyArrowLeft:
-		fallthrough
-	case ev.Rune == 'h':
 		ui.view.selectPrevious()
 		fmt.Fprintf(ui.wf, "→	%s\n", ui.view.selectedBranchWithColor())
 		ui.wf.Flush()
@@ -69,8 +67,6 @@ func (ui *ui) handleKeyEvent(ev keyboard.KeyEvent) (bool, error) {
 	case ev.Key == keyboard.KeyArrowDown:
 		fallthrough
 	case ev.Key == keyboard.KeyArrowRight:
-		fallthrough
-	case ev.Rune == 'j':
 		ui.view.selectNext()
 		fmt.Fprintf(ui.wf, "→	%s\n", ui.view.selectedBranchWithColor())
 		ui.wf.Flush()
